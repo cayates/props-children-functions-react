@@ -23,6 +23,11 @@
   font-size: large;
 }
 
+.wrap-me {
+  word-break: break-all;
+  word-wrap: break-word;
+}
+
 @keyframes App-logo-spin {
   from { transform: rotate(0deg); }
   to { transform: rotate(360deg); }
