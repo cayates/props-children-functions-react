@@ -34,12 +34,14 @@ export default class ParentComponent extends Component {
     render() {
       return (
         <div>
-          <div>
-            <input onChange={this.handleInput} value={this.state.whatToSay}type="text" placeholder="Say It, Don't Spray It!" />
+          <div className="d-flex justify-content-center">
+            <textarea className="form-control col-3 m-4" rows="5" cols="50" onChange={this.handleInput} value={this.state.whatToSay}type="text" placeholder="Input text here and watch it appear below!" />
           </div>
           <div>
             <ChildComponent onClick={this.handleSubmit}/>
+            <h1>
             <DisplayComponent sayWhat={this.state.whatWasSaid} />
+            </h1>
           </div>
         </div>
       );

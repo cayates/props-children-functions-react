@@ -1,10 +1,15 @@
 .App {
   text-align: center;
+  font-family: Amatic SC;
 }
 
 .App-logo {
   animation: App-logo-spin infinite 20s linear;
   height: 80px;
+}
+
+.nav-color {
+  background-color: #95a5a6;
 }
 
 .App-header {
@@ -22,3 +27,5 @@
   from { transform: rotate(0deg); }
   to { transform: rotate(360deg); }
 }
+
+@import url('https://fonts.googleapis.com/css?family=Amatic+SC');
