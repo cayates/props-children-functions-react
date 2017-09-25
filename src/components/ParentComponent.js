@@ -33,7 +33,7 @@ export default class ParentComponent extends Component {
     }
     render() {
       return (
-        <div>Smart Component: I have a function, but something isn't working? I also need to pass that function to the ChildComponent.
+        <div>
           <div>
             <input onChange={this.handleInput} value={this.state.whatToSay}type="text" placeholder="Say It, Don't Spray It!" />
           </div>
